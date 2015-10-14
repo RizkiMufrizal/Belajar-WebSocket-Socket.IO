@@ -1,0 +1,20 @@
+extends ./layout.jade
+
+block title
+  title Belajar WebSocket
+block content
+  div.container
+    div.row
+      div.col-xs-5.col-md-3
+      div.col-xs-5.col-md-6
+        div.panel.panel-primary
+          div.panel-heading
+            h3.panel-title Aplikasi Chat
+          div.panel-body
+            ul(id="listPesan")
+          div.panel-footer
+            div.form-group
+              input(id="nama", type="text", placeholder="Masukkan Nama Anda").form-control.floating-label
+            div.form-group
+              textarea(id="pesan", placeholder="Masukkan Pesan Anda").form-control.floating-label
+            button(id="kirim", type="button").btn.btn-primary.btn-fab.btn-raised.mdi-content-send
