@@ -1,0 +1,27 @@
+{
+  "name": "Belajar-WebSocket-Socket.IO",
+  "version": "1.0.0",
+  "authors": [
+    "RizkiMufrizal <mufrizalrizki@gmail.com>"
+  ],
+  "description": "Belajar WebSocket dengan node js",
+  "main": "index.jade",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "~0.3.0",
+    "bootstrap": "~3.3.5",
+    "socket.io-client": "~1.3.7"
+  }
+}
